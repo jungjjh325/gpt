@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인 홈페이지 | Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">MY.HOME</div>
+    <nav class="site-nav" aria-label="주요 탐색">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul id="nav-menu" class="nav-list">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">프론트엔드 개발자 · UI 애호가</p>
+        <h1>안녕하세요, 사용자 경험을 설계하는 <span>김지민</span>입니다.</h1>
+        <p class="lede">
+          모던 웹 기술로 직관적인 인터페이스와 아름다운 상호작용을 만드는 데 관심이 많습니다.
+          이 페이지는 저를 소개하고, 제가 만든 프로젝트와 기술 스택을 간략히 보여줍니다.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">포트폴리오 보기</a>
+          <a class="btn ghost" href="#contact">함께 일하기</a>
+        </div>
+        <ul class="hero-meta">
+          <li>📍 Seoul, Republic of Korea</li>
+          <li>💼 Freelance & Remote</li>
+          <li>✉️ hello@example.com</li>
+        </ul>
+      </div>
+      <div class="hero-card" role="presentation">
+        <div class="floating-badge">Open to Collaboration</div>
+        <div class="profile">
+          <div class="avatar" aria-hidden="true"></div>
+          <div class="profile-text">
+            <strong>김지민</strong>
+            <span>Creative Developer</span>
+          </div>
+        </div>
+        <p class="quote">“디자인과 코드를 연결해 사람들에게 즐거운 경험을 선물하는 것이 목표입니다.”</p>
+        <div class="stats">
+          <div>
+            <span class="number">6+</span>
+            <span class="label">Years Experience</span>
+          </div>
+          <div>
+            <span class="number">30+</span>
+            <span class="label">Projects</span>
+          </div>
+          <div>
+            <span class="number">4</span>
+            <span class="label">Awards</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <p class="eyebrow">About</p>
+        <h2>한눈에 보는 저의 일하는 방식</h2>
+        <p class="lede">사용자 중심 사고로 문제를 정의하고, 빠르게 프로토타입을 만들어 검증합니다. 팀과의 원활한 커뮤니케이션을 위해 문서화와 데모를 즐겨 합니다.</p>
+      </div>
+      <div class="about-grid">
+        <article class="card">
+          <h3>UX First</h3>
+          <p>와이어프레임과 사용자 여정을 함께 그리며, 공감 기반의 기능 우선순위를 세웁니다.</p>
+        </article>
+        <article class="card">
+          <h3>Clean Code</h3>
+          <p>모듈화된 컴포넌트와 명확한 네이밍을 통해 협업과 유지보수를 고려합니다.</p>
+        </article>
+        <article class="card">
+          <h3>Data Driven</h3>
+          <p>분석 도구와 사용자 피드백을 바탕으로 개선 사항을 반복적으로 적용합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <p class="eyebrow">Skills</p>
+        <h2>제가 다루는 기술</h2>
+        <p class="lede">프론트엔드 중심이지만, 디자인 시스템과 간단한 백엔드 구성까지 직접 다룹니다.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="pill-list">
+            <span class="pill">React</span>
+            <span class="pill">Next.js</span>
+            <span class="pill">TypeScript</span>
+            <span class="pill">Tailwind CSS</span>
+            <span class="pill">Framer Motion</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Design</h3>
+          <div class="pill-list">
+            <span class="pill">Figma</span>
+            <span class="pill">Design System</span>
+            <span class="pill">Prototyping</span>
+            <span class="pill">Accessibility</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Workflow</h3>
+          <div class="pill-list">
+            <span class="pill">Git & GitHub</span>
+            <span class="pill">Notion</span>
+            <span class="pill">Jira</span>
+            <span class="pill">CI/CD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <p class="eyebrow">Projects</p>
+        <h2>대표 프로젝트</h2>
+        <p class="lede">실제 사용자 문제를 해결하고, 성과를 입증한 프로젝트를 모았습니다.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="tag">SaaS</div>
+          <h3>팀 협업 대시보드</h3>
+          <p>실시간 코멘트와 상태 공유가 가능한 대시보드. 온보딩 시간을 30% 단축하고, 주간 리포트 자동화를 통해 PM 업무를 간소화했습니다.</p>
+          <ul>
+            <li>Next.js, React Query, WebSocket</li>
+            <li>Component-driven design, Storybook</li>
+          </ul>
+          <a class="link" href="#contact">자세히 논의하기 →</a>
+        </article>
+        <article class="project-card">
+          <div class="tag">E-commerce</div>
+          <h3>맞춤형 쇼핑 경험</h3>
+          <p>개인화 추천과 다국어 인터페이스를 제공하는 쇼핑몰. 전환율을 18% 개선하고, 모바일 체류 시간을 25% 늘렸습니다.</p>
+          <ul>
+            <li>React, TypeScript, i18n</li>
+            <li>A/B 테스트, Lighthouse 95+ 점수</li>
+          </ul>
+          <a class="link" href="#contact">프로젝트 보기 →</a>
+        </article>
+        <article class="project-card">
+          <div class="tag">Creative</div>
+          <h3>인터랙티브 웹 아트</h3>
+          <p>WebGL 기반의 인터랙티브 전시 작품. 물리 엔진을 활용해 몰입감 있는 사용자 경험을 제공하고, 온라인 전시회에서 10만+ 조회수를 기록했습니다.</p>
+          <ul>
+            <li>Three.js, GLSL Shaders</li>
+            <li>퍼포먼스 최적화, 반응형 레이아웃</li>
+          </ul>
+          <a class="link" href="#contact">데모 요청 →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-header">
+        <p class="eyebrow">Contact</p>
+        <h2>함께 멋진 일을 만들고 싶다면</h2>
+        <p class="lede">프로젝트 제안, 협업, 스피커 초청 모두 환영합니다. 메일로 연락 주세요!</p>
+      </div>
+      <div class="contact-card">
+        <div class="contact-info">
+          <p>✉️ <a href="mailto:hello@example.com">hello@example.com</a></p>
+          <p>💬 <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a> · <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          <p class="small">빠르게 답장을 드리기 위해 24시간 이내에 회신합니다.</p>
+        </div>
+        <form class="contact-form" aria-label="연락처 폼">
+          <label>
+            이름
+            <input type="text" name="name" placeholder="홍길동" required>
+          </label>
+          <label>
+            이메일
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label>
+            메시지
+            <textarea name="message" rows="4" placeholder="프로젝트에 대해 알려주세요" required></textarea>
+          </label>
+          <button type="submit" class="btn primary">메시지 보내기</button>
+          <p class="form-hint">※ 데모용 폼입니다. 제출 시 실제 메일은 전송되지 않습니다.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2024 Kim Jimin. Designed & coded with ☕️ and ☁️.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
